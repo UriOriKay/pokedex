@@ -1,15 +1,3 @@
-let lan = 0; // languages for the pokedex 
-let AllPokemon = []; // array to store all pokemon data for the output
-let allDetail = []; // array to store the pokemon data from the API
-let allSpecies = [] // array to store the species data from the API
-let allAbility = [] // array to store the ability data from teh API
-
-
-// function for getElementByID
-function docID(id) {
-    return document.getElementById(id);
-}
-
 //render the language dropdown Menü
 function lanDrpbxRender() {
     let flags = ["germany", "southkorea", "usa", "japan", "Italy", "spain", "france"];
@@ -24,10 +12,4 @@ function lanDrpbxRender() {
             `;
         }
     }
-}
-
-
-//change the language
-function language(id) {
-    lan = id;
 }

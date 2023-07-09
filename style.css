@@ -19,7 +19,40 @@ header {
     border-bottom: solid 1px rgba(0, 0, 0, 0.2);
 }
 
-#lang-img {
+#brand {
+    font-family: 'Pokemon Solid';
+    font-size: 60px;
+    color: #FFCC01;
+    text-shadow: 1px 0 0 #2872B9, 0 -1px 0 #2872B9, 0 1px 0 #2872B9, 10px 0 0 #2872B9;
+    position: relative;
+    top: -16px;
+}
+
+.lang-div {
+    display:flex;
+    flex-direction: column;
+    width: 50px;
+    height: 30px;
+}
+
+.lang-div:hover .lang-img {
+    display: unset;
+}
+
+#cur-lang {
+    width: 50px;
+    height: 30px;
+}
+
+.lang-img {
+    display: none;
     width: 50px;
     height: 30px;
 } 
+.lang-img:hover {
+    display: unset;
+}
+
+
+/* Main Section */
+

@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <script src="script.js"></script>
+    <script src="render.js"></script>
 </head>
-<body>
+<body onload="lanDrpbxRender()">
     <header>
-        <span>Ori Pokedex</span>
-        <input>
-        <img id="lang-img" src="./img/flag_germany.png" alt="">
+        <span id="brand">Ori Pokedex</span>
+        <input id="search">
+        <div id="lang-div" class="lang-div"></div>
+
     </header>
-    
+    <main>
+        <div id="slotcard_0" class="slotcard"></div>
+    </main>
 </body>
 </html>
+
