@@ -6,18 +6,40 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="colors.css">
     <script src="script.js"></script>
     <script src="render.js"></script>
 </head>
-<body onload="lanDrpbxRender()">
+<body onload="lanDrpbxRender(), getThemAll()">
     <header>
         <span id="brand">Ori Pokedex</span>
         <input id="search">
         <div id="lang-div" class="lang-div"></div>
-
     </header>
-    <main>
-        <div id="slotcard_0" class="slotcard"></div>
+    <main id="main">
+        <!-- <div id="slotcard_0" class="slotcard">
+            <div class="slotcard-bg green"></div>
+            <div class="slotcard-img">
+                <div class="ball"></div>
+                <div class="slotcard-img-con">
+                    <img class="slotcard-art" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="">
+                </div>
+                <div class="slotcard-header">
+                    <span class="pokemon-name">Bisasam</span>
+                    <span class="pokemon-id">#0001</span>
+                </div>
+                <div class="line"></div>
+                <div id="flavor" class="flavor">
+                    Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst.
+                </div>
+                <div class="types">
+                    <div class="grass type">Pflanze</div>
+                    <div class="poison type">Gift</div>
+                </div>
+            </div>
+        </div> -->
+        <div id="slotcard_1" class="slotcard green">
+        </div>
     </main>
 </body>
 </html>

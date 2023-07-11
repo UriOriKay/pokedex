@@ -1,0 +1,113 @@
+.fighting {
+    background-color: rgb(220, 55, 106);
+}
+
+.ground {
+    background-color: rgb(227, 118, 77);
+}
+
+.rock {
+    background-color: rgb(200, 184, 142);
+}
+
+.psychic {
+    background-color: rgb(255, 108, 121);
+}
+
+.fire {
+    background-color: rgb(255, 156, 91);
+}
+
+.electric {
+    background-color: rgb(244, 212, 82);
+}
+
+.poison {
+    background-color: rgba(184, 99, 196, 0.8);
+}
+
+.fairy {
+    background-color: rgb(250, 137, 227);
+}
+
+.bug {
+    background-color: rgb(126, 196, 66);
+}
+
+.dragon {
+    background-color: rgb(11, 105, 191);
+}
+
+.water {
+    background-color: rgb(73, 142, 210);
+}
+
+.grass {
+    background-color: rgb(58, 190, 100);
+}
+
+.ghost {
+    background-color: rgb(86, 102, 168);
+}
+
+.flying {
+    background-color: rgb(144, 167, 219);
+}
+
+.ice {
+    background-color: rgb(87, 207, 191);
+}
+
+.dark {
+    background-color: rgb(92, 82, 100);
+}
+
+.normal {
+    background-color: rgb(143, 152, 161);
+}
+
+.steel {
+    background-color: rgb(80, 143, 159);
+}
+
+
+/* whole bg Card */
+.black {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(22, 21, 21, 1));
+}
+
+.blue {
+    background-image: linear-gradient(180deg, rgba(0, 106, 228, 0.2), rgb(0, 106, 228, 1));
+}
+
+.brown {
+    background-image: linear-gradient(180deg, rgba(160, 91, 0, 0.2), rgba(160, 91, 0, 1));
+}
+
+.gray {
+    background-image: linear-gradient(180deg, rgba(45, 79, 119, 0.2), rgba(45, 79, 119, 1));
+}
+
+.green {
+    background-image: linear-gradient(180deg, rgba(56, 124, 65, 0.2), rgb(56, 124, 65, 1));
+}
+
+.pink {
+    background-image: linear-gradient(180deg, rgba(238, 132, 215, 0.2), rgb(238, 132, 215, 1));
+}
+
+.purple {
+    background-image: linear-gradient(180deg, rgba(47, 14, 85, 0.2), rgba(47, 14, 85, 1));
+}
+
+.red {
+    background-image: linear-gradient(180deg, rgba(124, 14, 1, 0.2), rgb(124, 14, 1, 1));
+}
+
+.white {
+    background-image: linear-gradient(180deg, rgba(173, 187, 202, 0.2), rgba(173, 187, 202, 1));
+}
+
+.yellow {
+    background-image: linear-gradient(180deg, rgba(206, 202, 5, 0.2), rgba(206, 202, 5, 1));
+}
